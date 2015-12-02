@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace JiraSimpleTimeTracker
 {
-    class JiraIssueWordLog
+    class JiraIssueWorkLog
     {
         public int timeSpentSeconds { get; set; }
         //public String timeSpent { get; set; }

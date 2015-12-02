@@ -267,7 +267,7 @@ namespace JiraSimpleTimeTracker
             try
             {
                 TimeSpan t = TimeSpan.FromSeconds(timer.secondsPassed);
-                string worklog = JsonConvert.SerializeObject(new JiraIssueWordLog {
+                string worklog = JsonConvert.SerializeObject(new JiraIssueWorkLog {
                     timeSpentSeconds = timer.secondsPassed,
                     //timeSpent = t.Hours + "h " + t.Minutes + "m",
                     started = new DateTimeOffset(DateTime.UtcNow).Subtract(t).ToString("yyyy-MM-ddTHH:mm:ss.fff+0000")

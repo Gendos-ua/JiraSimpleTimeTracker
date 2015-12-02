@@ -68,7 +68,7 @@
   <ItemGroup>
     <Compile Include="JiraIssue.cs" />
     <Compile Include="JiraIssueFilter.cs" />
-    <Compile Include="JiraIssueWordLog.cs" />
+    <Compile Include="JiraIssueWorkLog.cs" />
     <Compile Include="JiraRequest.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
